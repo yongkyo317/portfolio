@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<!-- saved from url=(1611)https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/88832483/45ac23a4-124a-4550-8cff-809810f18e20/Sr-Material-Handler-Portfolio-4.html?AWSAccessKeyId=ASIA2F3EMEYEV7SWG22N&Signature=jQuZ9HGvlrIVlN%2BvVtSTYjzQZWM%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEN7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQDMXMHaJ5xjKADxPEgKbwjt3JuPeSnOu%2BgqqyFH5kPbdAIhAIINu3Du9%2F0vD8Yrr%2Fb%2F9FdI0sCclzc0k3yWJBF7HIJ%2FKvwECKf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQARoMNjk5NzUzMzA5NzA1Igz1ppH4s%2BBl3XMkHwcq0ARR0Dgt6NZH6mZ5KWxiMqEJdJKGpGeZPMDFFJqJ7t08REkGyS8pyIKjiUwwXT02R1Uzhgy82iVlFnbnwa9JLC0qk7dJ%2BKYhEDD1xqPQm9F1YkW1%2FN3%2Fo%2FqUxitZstN653tAU45%2BRgeYbD%2BoE3YqyMHjnlaWSMspEx1VCLrrCw8jL1TBrjAkp5uezedtJKn5zq%2B0GUpgCp6%2F8gw%2FsyASDrefNmGrwCegI7dpfT7Ep6UccpHZC0UwuGx9hn5Ocs%2BAFwDV5pLWlBP0e4atWuFO4KWJWA6t2C3uOmHOusXnIYiRwr25L%2BdMtr1ZSr60pZB%2Bk1MK1f1U23ZiHezGIY4R5uddFqRuZnqSFSEC2DSl1L%2B4z%2BQJIpdUlcgUm%2F7exEIwgT2CQyZq%2FWmo%2BTcZr73M68C6w9hi2waJ1%2B0eAmmTN%2BakoksussMi1W4Loy8sbQTzFMnujYgKwabGf2DC1w4UenuUsCxDgUCcJIZuthn6z4f5SOYJLYpZbHRxZq94XVj1BbOAC2wFIOk9vW38mWT7TrgA8lJn44wQ4k%2FuotqD1rnASzY6z%2FWLyoUHuZKAvNf69sE8deARb2ZdJSYrVUCTnjKI7ifmnfig9nOMWOtE0m8%2BUF1GUX0KqvJ9Nyv%2B0xh0H96ckDH3wD%2Fe8Tu7SOOmVNF6mD227PnZTS6xocuVmMaPyLxtFaFWeKJYKwoczXLod3UAfnnMDt4Ga4%2BzQeuoVsgS7oVkqMj9dX%2F7oeAvaye%2BhFLVqqiYSfKOpdcO%2BdOH3VsSsXlwqEEI8GeuqHbWrAXcMMn1rMwGOpcBZLXhGJXEabOcaw9I%2Ft6efYiSYcRjpfzx2RqQaI51XesyFdGw7%2BHooDyI5mwVgTNfWi%2FFhdie1RFQJUguVidbKNFIS0edRIwqgV4bVdWi3fA12aWHpo98duhagyIuwRYrNqt4P6R9jvNgVvUJARxLjvfIhG%2FU6aPIOqnJB661g5a7kTzsTdvMed%2FAjpzz%2BF4VsiDkAKClIA%3D%3D&Expires=1770733290 -->
+<html lang="ko"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>총무 직무 포트폴리오 - 용기호</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Malgun Gothic', sans-serif;
+            background: #f5f5f5;
+            overflow-x: hidden;
+        }
+        
+        .slide-container {
+            width: 100vw;
+            height: 100vh;
+            overflow-y: auto;
+            scroll-snap-type: y mandatory;
+        }
+        
+        .slide {
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 60px;
+            scroll-snap-align: start;
+            position: relative;
+        }
+        
+        /* 표지 슬라이드 */
+        .slide.cover {
+            background: linear-gradient(135deg, #0d3b66 0%, #1a7b9c 50%, #2a9d8f 100%);
+            color: white;
+        }
+        
+        .cover h1 {
+            font-size: 3.5em;
+            margin-bottom: 30px;
+            font-weight: 700;
+        }
+        
+        .cover .subtitle {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+        
+        .cover .name {
+            font-size: 1.5em;
+            margin-top: 40px;
+            opacity: 0.9;
+        }
+        
+        .cover .contact {
+            margin-top: 30px;
+            font-size: 1.1em;
+            opacity: 0.8;
+        }
+        
+        /* 일반 슬라이드 */
+        .slide.content {
+            background: white;
+            align-items: flex-start;
+            justify-content: flex-start;
+        }
+        
+        .slide-header {
+            width: 100%;
+            border-bottom: 4px solid #1e3c72;
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .slide-header h2 {
+            font-size: 2.5em;
+            color: #1e3c72;
+            font-weight: 700;
+        }
+        
+        .slide-content {
+            width: 100%;
+            max-width: 1200px;
+        }
+        
+        /* 프로필 요약 */
+        .profile-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-top: 20px;
+        }
+        
+        .profile-box {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            border-left: 5px solid #1e3c72;
+        }
+        
+        .profile-box h3 {
+            font-size: 1.5em;
+            color: #1e3c72;
+            margin-bottom: 20px;
+        }
+        
+        .profile-box ul {
+            list-style: none;
+        }
+        
+        .profile-box li {
+            padding: 8px 0;
+            font-size: 1.1em;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .profile-box li strong {
+            color: #1e3c72;
+            font-weight: 600;
+        }
+        
+        /* 프로젝트 카드 */
+        .project-card {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 40px;
+            margin-bottom: 30px;
+            border-left: 6px solid #1e3c72;
+        }
+        
+        .project-header {
+            margin-bottom: 25px;
+        }
+        
+        .project-title {
+            font-size: 1.8em;
+            color: #1e3c72;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+        .project-meta {
+            font-size: 1.1em;
+            color: #666;
+        }
+        
+        .project-section {
+            margin: 25px 0;
+        }
+        
+        .project-section h4 {
+            font-size: 1.3em;
+            color: #1e3c72;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        .project-section p {
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #333;
+        }
+        
+        .project-section ul {
+            list-style: none;
+            margin-top: 10px;
+        }
+        
+        .project-section li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+            font-size: 1.1em;
+            line-height: 1.7;
+            color: #333;
+        }
+        
+        .project-section li:before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: #1e3c72;
+            font-weight: bold;
+        }
+        
+        .highlight-box {
+            background: #e3f2fd;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            border-left: 4px solid #2196f3;
+        }
+        
+        .highlight-box strong {
+            color: #1565c0;
+            font-size: 1.15em;
+        }
+        
+        /* 경력 타임라인 */
+        .timeline {
+            position: relative;
+            padding-left: 40px;
+            margin-top: 30px;
+        }
+        
+        .timeline:before {
+            content: '';
+            position: absolute;
+            left: 15px;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: #1e3c72;
+        }
+        
+        .timeline-item {
+            position: relative;
+            margin-bottom: 40px;
+            padding-left: 30px;
+        }
+        
+        .timeline-item:before {
+            content: '';
+            position: absolute;
+            left: -32px;
+            top: 5px;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background: #1e3c72;
+            border: 3px solid white;
+            box-shadow: 0 0 0 3px #1e3c72;
+        }
+        
+        .timeline-item h3 {
+            font-size: 1.4em;
+            color: #1e3c72;
+            margin-bottom: 8px;
+        }
+        
+        .timeline-item .period {
+            font-size: 1.1em;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        
+        .timeline-item ul {
+            list-style: none;
+        }
+        
+        .timeline-item li {
+            padding: 5px 0;
+            font-size: 1.05em;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        /* 스킬 그리드 */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .skill-category {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            border-top: 4px solid #1e3c72;
+        }
+        
+        .skill-category h3 {
+            font-size: 1.3em;
+            color: #1e3c72;
+            margin-bottom: 15px;
+        }
+        
+        .skill-category ul {
+            list-style: none;
+        }
+        
+        .skill-category li {
+            padding: 8px 0;
+            font-size: 1.05em;
+            color: #333;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .skill-category li:last-child {
+            border-bottom: none;
+        }
+        
+        /* 연락처 슬라이드 */
+        .contact-slide {
+            background: linear-gradient(135deg, #2a9d8f 0%, #1a7b9c 50%, #0d3b66 100%);
+            color: white;
+        }
+        
+        .contact-box {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 50px;
+            border-radius: 15px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+        
+        .contact-box h2 {
+            font-size: 2.5em;
+            margin-bottom: 40px;
+        }
+        
+        .contact-info {
+            font-size: 1.4em;
+            line-height: 2;
+        }
+        
+        .contact-info p {
+            margin: 15px 0;
+        }
+        
+        /* 페이지 번호 */
+        .page-number {
+            position: absolute;
+            bottom: 30px;
+            right: 40px;
+            font-size: 1em;
+            color: #999;
+        }
+        
+        .slide.cover .page-number,
+        .slide.contact-slide .page-number {
+            color: rgba(255, 255, 255, 0.6);
+        }
+        
+        /* 반응형 */
+        @media (max-width: 768px) {
+            .slide {
+                padding: 30px;
+            }
+            
+            .cover h1 {
+                font-size: 2.5em;
+            }
+            
+            .profile-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        
+        <!-- 슬라이드 1: 표지 -->
+        <div class="slide cover">
+            <div style="margin-bottom: 50px;">
+                <img src="./총무 직무 포트폴리오 - 용기호_files/2d3da7fb-7c93-4361-83c3-7301d7fdf5ea" alt="프로필 사진" style="width: 200px; height: 200px; border-radius: 50%; border: 5px solid white; object-fit: cover; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
+            </div>
+            <h1>용기호 (YONG KIHO)</h1>
+            <div class="subtitle" style="font-size: 2em; margin-bottom: 30px;">써모피셔 사이언티픽 코리아<br>Sr Material Handler (물류현장직)</div>
+            <div style="font-size: 1.3em; margin-top: 30px; line-height: 2;">
+                <p style="margin: 10px 0;">📧 이메일: syk4000@naver.com</p>
+                <p style="margin: 10px 0;">📱 연락처: 010-7189-8703</p>
+                <p style="margin: 10px 0;">🏠 거주지: 인천광역시 중구 (영종도 거주)</p>
+                <p style="margin: 10px 0;">🚗 통근: 자차 보유 (근무지까지 15분 이내)</p>
+            </div>
+            <div class="page-number">1</div>
+        </div>
+        
+        <!-- 슬라이드 2: 프로필 요약 -->
+        <div class="slide content">
+            <div class="slide-header">
+                <h2>프로필 요약</h2>
+            </div>
+            <div class="slide-content">
+                <div class="profile-grid">
+                    <div class="profile-box">
+                        <h3>📋 기본 정보</h3>
+                        <ul>
+                            <li><strong>경력:</strong> 행정·총무·경영지원 + 물류·구매·자재 관리</li>
+                            <li><strong>학력:</strong> 한중대학교 레저스포츠학과 졸업 (4년제)</li>
+                            <li><strong>교육:</strong> 경영학·경제학 과목 이수 (경영 기초 이론 학습)</li>
+                            <li><strong>자격:</strong> 지게차운전기능사, 컴퓨터활용능력2급, 워드프로세서 자격 보유</li>
+                            <li><strong>지원직무:</strong> Sr Material Handler (임상시험용 의약품 입출고·반품·폐기 관리)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="profile-box">
+                        <h3>💼 핵심 역량 (Sr Material Handler 적합성)</h3>
+                        <ul>
+                            <li><strong>✓ 물류창고 운영 3년 4개월 완료</strong> (제조 2곳 + 외국계 1곳 현장 경험)</li>
+                            <li><strong>✓ 직무 관련 자격증 다수 보유</strong></li>
+                            <li><strong>✓ SAP·Oracle ERP 입출고·재고 관리</strong> (재고 정확도 85%→96% 향상)</li>
+                            <li><strong>✓ 지게차 운전 자격 + 3년 현장 경력</strong> (월 200~300톤 규모 운반·적재)</li>
+                            <li><strong>✓ 컨테이너 상하차·도크 관리 전문</strong> (대기시간 40분→20분 단축)</li>
+                            <li><strong>✓ 구매·통관·정산 실무 경험</strong> (납기 준수율 78%→92% 향상)</li>
+                            <li><strong>✓ 총무·행정 업무 6년 6개월 경험</strong> (예산 관리, 운영 개선, 협업 조율)</li>
+                            <li><strong>✓ 문서 작성·대외 협력 능력</strong> (공문·기안·보고서 작성, 지자체 협업)</li>
+                            <li><strong>✓ 영어 이메일·외국계 협업 가능</strong> (엠케이에스코리아 6개월)</li>
+                            <li><strong>✓ MS Office 활용 상급</strong> (Excel 데이터 집계·분석, 보고서 작성)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="profile-box" style="grid-column: 1 / -1;">
+                        <h3>✅ 자격요건 충족 현황</h3>
+                        <ul>
+                            <li><strong>✓ 물류창고 운영 3년 이상 경력:</strong> 세인플라스틱 1년 9개월 + 유한킴벌리 1년 1개월 + 엠케이에스코리아 6개월 = <span style="color: #e53935; font-weight: bold;">총 3년 4개월 완료</span></li>
+                            <li><strong>✓ 고졸 이상 학력:</strong> 한중대학교 레저스포츠학과 졸업 (4년제)</li>
+                            <li><strong>✓ 기본적인 영어 읽기/쓰기 가능자:</strong> 엠케이에스코리아 6개월 근무, 영어 이메일·업무 문서 작성 및 해외 업체 소통 경험</li>
+                            <li><strong>✓ 기본적인 영어 회화 가능자:</strong> 외국계 기업 현장 협업 및 화상회의 참여 경험, 업무 중심 회화 가능</li>
+                            <li><strong>✓ 지게차 운전기능사 자격증 필수:</strong> 지게차운전기능사 자격 보유 (2016.04) + 3년 현장 운전 경력</li>
+                            <li><strong>✓ 인천 영종도 출퇴근 가능자:</strong> 인천 중구 영종도 거주, 자차 보유 (근무지까지 15분 이내)</li>
+                            <li><strong>✓ MS Office 활용 가능자:</strong> Excel·Word·PPT 상급, 데이터 집계·보고서 작성 실무 경험 다수</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="profile-box" style="grid-column: 1 / -1; margin-top: 20px;">
+                        <h3>🎯 주요 경험 조직</h3>
+                        <ul>
+                            <li><strong>외국계 기업:</strong> 엠케이에스코리아 (반도체 부품) - Oracle ERP 기반 구매·통관·입출고·컨테이너 상하차 6개월, 영어 이메일·업무 소통 가능</li>
+                            <li><strong>제조 현장 1:</strong> 세인플라스틱 (코오롱 협력사) - SAP 기반 원료 입출고·재고조사·창고·도크 관리 1년 9개월</li>
+                            <li><strong>제조 현장 2:</strong> 유한킴벌리 제지생산 - 원료 투입·컨베이어 운전·SILO 공정·중앙 제어실 모니터링 1년 1개월</li>
+                            <li><strong>공공기관:</strong> 한국교통안전공단 인천본부 - 총무·차량·통근버스·민원환경 개선 4년 4개월</li>
+                            <li><strong>연구소:</strong> 극지연구소 (바른인사컨설팅 파견) - 총무·차량·통근버스·시설관리 1년 1개월</li>
+                            <li><strong>환경플랜트:</strong> Xi O&amp;M (GS건설 자회사) - SRF 연료화시설 시운전·설비 점검·창고 운영 6개월</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="page-number">2</div>
+        </div>
+        
+        <!-- 슬라이드 3: 대표 프로젝트 1 -->
+        <div class="slide content">
+            <div class="slide-header">
+                <h2>대표 프로젝트 1</h2>
+            </div>
+            <div class="slide-content">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">Oracle ERP 기반 구매·통관·정산 프로세스 안정화</div>
+                        <div class="project-meta">엠케이에스코리아 Power Solution Asia | 2025.06 ~ 2025.11 | 6개월</div>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h4>🎯 배경 및 문제 인식</h4>
+                        <p>반도체 공정용 부품 제조 기업에서 국내외 자재 구매 건수가 월 150~200건 규모로 처리되었으나, 오픈 PO 관리 미흡으로 납기 지연과 입고 누락이 빈번했습니다. 특히 수입 통관 과정에서 서류 검토 지연과 관세사 협업 부족으로 통관 지연이 발생했고, 월 마감 시 구매 데이터 집계 오류로 정산 처리가 늦어지는 문제가 있었습니다.</p>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h4>⚙️ 실행 내용 (담당 역할)</h4>
+                        <ul>
+                            <li><strong>Oracle ERP 기반 PR/PO 관리 체계화:</strong> 구매요청(PR) 생성·검토 및 PO 생성·발행 수행, MRO(소모성/유지보수 자재) 긴급구매 대응으로 생산 중단 방지</li>
+                            <li><strong>오픈 PO 상시 모니터링:</strong> 발주 후 납기 일정 추적, 지연 발생 시 국내외 업체 커뮤니케이션으로 입고 일정 조율 및 리스크 선제 관리</li>
+                            <li><strong>견적 비교 분석 및 구매 의사결정 지원:</strong> 다수 협력업체 견적 수집 후 단가·조건·납기 비교 분석, 비용 효율성과 납기 안정성 고려한 구매 판단 자료 제공</li>
+                            <li><strong>수입 통관 협업 강화:</strong> Invoice, Packing List, B/L 등 통관 서류 사전 검토, 관세사·운송사와 협업하여 통관 일정 관리 및 관세·운임 정산</li>
+                            <li><strong>월 마감 및 정산 정확도 향상:</strong> 월별 구매내역 집계, 세금계산서·거래명세표·인보이스 검수 및 ERP 정산 처리 체계화</li>
+                            <li><strong>컨테이너 입고 현장 관리:</strong> 입고 일정 관리 및 상하차 현장 진행 지원, 입고 확인 및 이슈 대응으로 물류 현장 안정화</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h4>📊 핵심 성과</h4>
+                        <div class="highlight-box">
+                            <p><strong>✓ 오픈 PO 모니터링 및 업체 소통 강화로 납기 준수율 개선</strong></p>
+                            <p><strong>✓ 통관 서류 사전 검토 및 관세사 협업 체계화로 통관 리드타임 단축</strong></p>
+                            <p><strong>✓ 데이터 집계 체계화 및 검수 프로세스 확립으로 정산 정확도 향상</strong></p>
+                            <p><strong>✓ 견적 비교 분석으로 의사결정 지원 및 구매 비용 효율화</strong></p>
+                            <p><strong>✓ 긴급 MRO 대응으로 생산 라인 중단 예방 및 안정성 확보</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page-number">3</div>
+        </div>
+        
+        <!-- 슬라이드 4: 대표 프로젝트 2 -->
+        <div class="slide content">
+            <div class="slide-header">
+                <h2>대표 프로젝트 2</h2>
+            </div>
+            <div class="slide-content">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">극지연구소 통근버스 운영 개선 및 예산 효율화</div>
+                        <div class="project-meta">(주)바른인사컨설팅 (극지연구소 파견) | 2024.06 ~ 2025.06 | 1년 1개월</div>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h4>🎯 배경 및 문제 인식</h4>
+                        <p>극지연구소 직원 통근버스는 인천·송도 지역에서 약 80~100명의 직원이 이용하는 필수 복리후생 시설이었으나, 2025년 예산 삭감으로 통근버스 계약 연장이 불투명해지면서 직원들의 출퇴근 불편이 우려되는 상황이었습니다. 기존 운영 방식으로는 예산 범위 내 계약이 어려웠고, 운영 중단 시 직원 만족도 저하와 출퇴근 부담 증가가 예상되었습니다.</p>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h4>⚙️ 실행 내용 (담당 역할)</h4>
+                        <ul>
+                            <li><strong>운영 현황 데이터 분석:</strong> 노선별 이용 인원, 운행 시간대, 기사 근무 형태, 차량 상태 등 통근버스 운영 전반 데이터 수집·정리</li>
+                            <li><strong>안전보건협의체 회의 자료 준비:</strong> 통근버스 운영 안건 담당자로서 현황 보고 자료 작성, 운영 개선사항 및 안전 이슈 도출·공유</li>
+                            <li><strong>예산 협의 과정 참여:</strong> 2025년 통근버스 연장 관련 예산 협의에 직접 참여, 예산 삭감 결정 이후 대체 운영 방안 수립 필요성 인식</li>
+                            <li><strong>대체 운영 방안 기안 작성:</strong> 예산 범위 내에서 최소 운영을 유지할 수 있는 노선 조정안, 운행 횟수 축소안, 용역업체 재협상안 등을 구체화하여 기안서 작성·보고</li>
+                            <li><strong>직원 의견 수렴 및 VOC 반영:</strong> 직원들의 통근버스 이용 의견 수렴, 정차 위치·운행 시간 조정 요청사항 정리 후 운영 기준에 반영</li>
+                            <li><strong>용역업체 협의 및 이행 관리:</strong> 협의체 결정사항을 용역업체와 조율, 운영 기준 반영 여부 사후 점검 및 안전수칙 준수 관리</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h4>📊 핵심 성과</h4>
+                        <div class="highlight-box">
+                            <p><strong>✓ 예산 삭감 상황에서 대체 운영 방안 수립으로 서비스 유지 및 예산 최적화</strong></p>
+                            <p><strong>✓ VOC 반영 및 동선 최적화로 이용자 만족도 개선</strong></p>
+                            <p><strong>✓ 노선 재조정 및 운행 조건 개선으로 운영 효율성 향상</strong></p>
+                            <p><strong>✓ 협의체 운영 및 점검 기준 확립으로 안전 관리 체계화</strong></p>
+                            <p><strong>✓ 80~100명 출퇴근 편의 안정적 제공으로 서비스 연속성 확보</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page-number">4</div>
+        </div>
+        
+        <!-- 슬라이드 5: 대표 프로젝트 3 -->
+        <div class="slide content">
+            <div class="slide-header">
+                <h2>대표 프로젝트 3</h2>
+            </div>
+            <div class="slide-content">
+                <div class="project-card" style="margin-bottom: 25px;">
+                    <div class="project-header">
+                        <div class="project-title">한국교통안전공단 민원대기실 환경개선 및 서비스 향상</div>
+                        <div class="project-meta">한국교통안전공단 인천본부 | 2019.04 ~ 2023.07 | 4년 4개월</div>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h4>🎯 배경 및 문제 인식</h4>
+                        <p>인천본부에서는 운전적성정밀검사 및 국가자격시험 응시를 위해 일일 평균 100~150명의 민원인이 방문했으나, 민원 창구 접근성 부족과 서류 발급 대기시간이 길어 민원인 불편이 반복되었습니다. 특히 서류 발급을 위해 외부 기관(주민센터, 은행)까지 이동해야 하는 불편으로 민원 만족도가 저하되는 문제가 있었습니다.</p>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h4>⚙️ 실행 내용 (담당 역할)</h4>
+                        <ul>
+                            <li><strong>민원 동선 및 환경 분석:</strong> 민원 창구 위치, 대기 공간, 안내 표지판, 바닥 유도선 등 민원 환경 전반 점검 및 개선 필요 사항 도출</li>
+                            <li><strong>민원 전용 PC 설치 제안·실행:</strong> 민원인이 외부 기관 방문 없이 즉시 서류(주민등록등본, 졸업증명서 등) 발급 가능하도록 민원 전용 PC 및 프린터 설치</li>
+                            <li><strong>바닥 유도선 및 안내 표지판 개선:</strong> 민원 창구 접근성 향상을 위해 바닥 유도선 설치 제안·현장 적용, 안내 표지판 정비로 동선 혼선 최소화</li>
+                            <li><strong>반복 민원 유형 분석:</strong> VOC(고객의 소리) 데이터 수집·분석, 반복 발생하는 민원 유형 파악 후 사전 안내 자료 작성·배포</li>
+                            <li><strong>민원 대기 공간 정비:</strong> 대기 좌석 배치 개선, 안내 방식 점검, 현장 혼선 최소화 조치 시행</li>
+                            <li><strong>VOC 처리 이력 관리:</strong> 민원 접수·처리·결과 공유 체계 정립, 유사 민원 재발 가능성 감소 및 응대 품질 향상</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h4>📊 핵심 성과</h4>
+                        <div class="highlight-box">
+                            <p><strong>✓ 민원 전용 PC 설치로 서류 발급 대기시간 대폭 개선</strong></p>
+                            <p><strong>✓ 환경 개선 및 동선 최적화로 고객 만족도 향상</strong></p>
+                            <p><strong>✓ 사전 안내 체계 구축으로 반복 민원 감소</strong></p>
+                            <p><strong>✓ 유도선 및 표지판 정비로 접근성 개선</strong></p>
+                            <p><strong>✓ VOC 관리 체계화로 응대 품질 지속 향상</strong></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">SAP 기반 입출고·재고 관리 체계화</div>
+                        <div class="project-meta">세인플라스틱 (코오롱 협력사) | 2017.07 ~ 2019.03 | 1년 9개월</div>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h4>🎯 배경 및 문제 인식</h4>
+                        <p>플라스틱 제조 현장에서 대량의 원료 입고가 이루어지며 입고 지연, 라벨 오발행, 재고 과부족 문제가 빈번히 발생했습니다. 컨테이너 및 윙바디 차량 상하차 일정이 겹치면서 도크 혼잡과 입고 지연이 반복되었고, SAP 데이터 입력 오류로 재고 추적성이 저하되는 상황이었습니다.</p>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h4>⚙️ 실행 내용 (담당 역할)</h4>
+                        <ul>
+                            <li><strong>입고 검수 프로세스 정립:</strong> 3단계 검수 체계 확립, 이상 발생 시 즉시 격리·보고로 품질 리스크 차단</li>
+                            <li><strong>도크·배차 일정 조율:</strong> 생산계획 기준 입고 일정 선조율로 도크 혼잡 방지, 상하차 동선 관리</li>
+                            <li><strong>SAP 데이터 정합성 관리:</strong> 데이터 입력 정확도 점검, 라벨 오발행 예방으로 자재 추적성 강화</li>
+                            <li><strong>창고 적치 기준 체계화:</strong> 구역/품목/상태별 적치 기준 유지, FIFO 원칙 적용으로 선입선출 관리</li>
+                            <li><strong>재고조사 정기 실시:</strong> 월 1회 재고조사로 실물·시스템 일치율 향상, 원인 분석 및 재발 방지</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h4>📊 핵심 성과</h4>
+                        <div class="highlight-box">
+                            <p><strong>✓ 실물·시스템 일치율 향상으로 재고 정확도 개선</strong></p>
+                            <p><strong>✓ 일정 조율 및 동선 관리로 입고 프로세스 안정화</strong></p>
+                            <p><strong>✓ 데이터 검수 체계 확립으로 라벨 오발행 감소</strong></p>
+                            <p><strong>✓ 배차 최적화로 도크 대기시간 단축</strong></p>
+                            <p><strong>✓ 자재 공급 차질 없이 생산 안정성 확보</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page-number">5</div>
+        </div>
+        
+        <!-- 슬라이드 6: 주요 경력 -->
+        <div class="slide content">
+            <div class="slide-header">
+                <h2>주요 경력 사항</h2>
+            </div>
+            <div class="slide-content">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h3>① 엠케이에스코리아 (외국계 기업 - 반도체 부품 제조)</h3>
+                        <div class="period">2025.06 ~ 2025.11 (6개월) | Power Solution Asia 구매팀 대리</div>
+                        <ul>
+                            <li><strong>Oracle ERP 기반 구매·통관 운영:</strong> 구매요청(PR) 검토 및 구매발주(PO) 생성·발행 (월 150~200건), 국내외 협력업체 발주 및 납기 일정 관리</li>
+                            <li><strong>MRO 긴급구매 대응:</strong> 생산 라인 소모성 자재·유지보수 자재 긴급 발주로 가동 중단 방지, 납기 준수율 92% 달성</li>
+                            <li><strong>오픈 PO 모니터링:</strong> 발주 후 입고 일정 추적, 지연 발생 시 업체 소통 및 리스크 선제 관리</li>
+                            <li><strong>수입 통관 협업:</strong> Invoice/Packing List/B/L 검토, 관세사·운송사 협업으로 통관 일정 관리, 통관 소요일 5일→2.5일 단축 (50% 개선)</li>
+                            <li><strong>견적 비교 분석 및 구매 의사결정 지원:</strong> 다수 업체 견적 수집 후 단가·조건·납기 비교 분석, 연간 구매 비용 8% 절감 효과 기여</li>
+                            <li><strong>월 마감 및 정산:</strong> 월별 구매내역 집계, 세금계산서·거래명세표·인보이스 검수, ERP 정산 처리, 정산 오류 월 12건→3건 감소 (75% 개선)</li>
+                            <li><strong>관세·운임 정산:</strong> 수입 통관 관세·운임·부대비용 정산, 회계 부서 협업하여 비용 정확도 향상</li>
+                            <li><strong>자재·컨테이너 입고 관리:</strong> 입출고 현황 관리, 재고 모니터링, 컨테이너(20FT/40FT) 상하차 현장 지원 및 이슈 대응</li>
+                            <li><strong>영어 이메일 작성 및 해외 업체 소통:</strong> 해외 협력업체 납기 확인, 견적 요청, 통관 서류 검토 등 영어 업무 소통</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <h3>② (주)바른인사컨설팅 (극지연구소 파견 - 총무)</h3>
+                        <div class="period">2024.06 ~ 2025.06 (1년 1개월) | 총무자재실 행정원</div>
+                        <ul>
+                            <li><strong>공용차량 운영 및 정비 관리:</strong> 업무용 차량 배차·예약 시스템 관리, 정비 일정 수립 및 점검, 자동차세·보험료·임차료 정산 처리</li>
+                            <li><strong>통근버스 운영 및 예산 협의:</strong> 인천·송도 지역 80~100명 이용자 대상 통근버스 일정 관리, 안전보건협의체 회의 자료 작성, 2025년 예산 삭감 시 대체 운영 방안 기안 작성·보고</li>
+                            <li><strong>통근버스 용역업체 관리:</strong> 협의체 결정사항 용역업체 전달, 운영 기준 이행 점검, 직원 VOC 수렴 및 반영</li>
+                            <li><strong>시설 유지보수 및 기숙사 관리:</strong> 사옥·기숙사·회의실 시설 유지보수, 고장·민원 발생 시 협력업체 협의 및 조치, 쾌적한 근무 환경 유지</li>
+                            <li><strong>비품 구매 및 재고 관리:</strong> 사무용품·소모품 구매 및 재고 관리, 비품 구매 예산 집행, 비용 절감 노력</li>
+                            <li><strong>공과금 처리 및 정산:</strong> 전기·수도·가스·통신 등 공과금 월별 처리, 비용 집계 및 정산</li>
+                            <li><strong>우편물 취합·발송:</strong> 국내외 우편물 취합·분류·발송, 택배 접수 및 배송 관리</li>
+                            <li><strong>출입 보안 관리:</strong> 차량·인원 출입 권한 통제, 관제 시스템 운영, 방문객 관리 및 보안 수칙 점검</li>
+                            <li><strong>대외 협력 행정 지원:</strong> 정부기관·지자체·유관기관 협업 공문 작성·회신, 기관 간 협업 일정 조율</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <h3>③ 한국교통안전공단 (공공기관 - 총무)</h3>
+                        <div class="period">2019.04 ~ 2023.07 (4년 4개월) | 인천본부 안전관리처 주임</div>
+                        <ul>
+                            <li><strong>업무용 차량 입찰·계약·관리:</strong> 업무용 차량 입찰 공고 작성, 제안서 검토, 계약 체결, 차량 배차·정비·보험 관리</li>
+                            <li><strong>차량 임차료 및 유류비 정산:</strong> 월별 차량 임차료·유류비·정비비 집계 및 정산 처리, 예산 집행 관리</li>
+                            <li><strong>통근버스 예산 협의 및 운영 관리:</strong> 통근버스 예산 협의 참여, 예산 삭감 시 대체 운영 방안 기안 작성·보고, 용역업체 관리 및 운영 기준 점검</li>
+                            <li><strong>시설 유지보수 및 예산 집행:</strong> 사옥·기숙사·회의실 유지보수, 고장·민원 발생 시 협력업체 협의 및 조치, 시설 관리 예산 집행</li>
+                            <li><strong>기숙사·회의실 관리:</strong> 기숙사 배정·입퇴실 관리, 회의실 예약 시스템 운영, 쾌적한 환경 유지</li>
+                            <li><strong>민원 환경 개선 기획 및 실행:</strong> 민원 동선 분석, 민원 전용 PC·프린터 설치 제안·실행으로 서류 발급 대기시간 40분→10분 단축 (75% 개선)</li>
+                            <li><strong>창구 안내 표지판 및 유도선 설치:</strong> 바닥 유도선 설치, 안내 표지판 정비로 민원 창구 접근성 향상, 동선 혼선 최소화</li>
+                            <li><strong>VOC(고객의 소리) 관리:</strong> 민원 의견 수렴·분석, 반복 민원 유형 파악 후 사전 안내 자료 작성·배포, 반복 민원 월 25건→10건 감소 (60% 개선)</li>
+                            <li><strong>민원 만족도 조사 및 분석:</strong> 분기별 민원 만족도 조사 집계·분석, 만족도 3.2점→4.1점 향상 (0.9점 개선)</li>
+                            <li><strong>복리후생 관리:</strong> 복지포인트 관리, 휴양소 이용 안내, 직원 복리후생 지원</li>
+                            <li><strong>사내 행사 기획·지원:</strong> 체육대회·송년회·워크숍 등 사내 행사 기획·준비·진행, 퇴직자 행사 운영</li>
+                            <li><strong>대외 협력 행정 지원:</strong> 정부기관·지자체·유관기관 협업 공문 작성·회신, 기관 간 협업 일정 조율</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <h3>④ 세인플라스틱 (제조 현장 - 코오롱 플라스틱 협력사)</h3>
+                        <div class="period">2017.07 ~ 2019.03 (1년 9개월) | 입고원료 사원</div>
+                        <ul>
+                            <li><strong>SAP 기반 입고 처리:</strong> 국내외 원료 입고 시 SAP 시스템 데이터 입력, 월 200~300톤 규모 입고 처리</li>
+                            <li><strong>입고 검수 프로세스 정립:</strong> 입고 시 수량·라벨·포장 상태 3단계 검수, 이상 발생 시 즉시 격리·보고로 품질 리스크 차단</li>
+                            <li><strong>SAP 및 코오롱 KPL 프로그램 데이터 관리:</strong> SAP 및 코오롱 KPL 입고 프로그램 데이터 입력 정확도 점검, 라벨 오발행 예방으로 자재 추적성 강화</li>
+                            <li><strong>라벨 발행 및 오발행 예방:</strong> SAP 데이터 기준 라벨 발행, 오발행 월 8건→2건 감소 (75% 개선)</li>
+                            <li><strong>도크·배차 일정 조율:</strong> 생산계획 기준 발주·납기 확인 및 입고 일정 선조율, 컨테이너(20FT/40FT) 및 윙바디 차량 상하차 일정 관리로 도크 혼잡 방지</li>
+                            <li><strong>컨테이너 상하차 대기시간 단축:</strong> 도크 동선 관리 최적화로 대기시간 40분→20분 단축 (50% 개선)</li>
+                            <li><strong>창고 적치 기준 체계화:</strong> 구역/품목/상태별 적치 기준 유지로 재고 가시성 및 피킹 효율 향상, FIFO 원칙 적용으로 선입선출 관리</li>
+                            <li><strong>재고조사 정기 실시:</strong> 월 1회 재고조사로 실물 재고와 시스템 재고 일치율 향상, 재고 정확도 85%→96% 달성 (11%p 개선)</li>
+                            <li><strong>재고 과부족 원인 분석:</strong> 재고 차이 발생 원인 분석 및 재발 방지 조치 수립</li>
+                            <li><strong>SILO 공정 모니터링:</strong> 원료 투입량·수율 관리, 생산 라인 자재 공급 안정화, 자재 부족 중단 제로 달성</li>
+                            <li><strong>지게차 운전 (3톤급):</strong> 원료 운반·적재·투입 (월 200~300톤 규모), 창고 내 안전운전 원칙 준수</li>
+                            <li><strong>생산계획 기준 원료 출고:</strong> 생산계획 확인 후 출고 수량 조정, 라인 흐름 유지 및 공급 안정화</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <h3>⑤ Xi O&amp;M (환경플랜트 - GS건설 자회사)</h3>
+                        <div class="period">2016.04 ~ 2016.09 (6개월) | 연료화시설 주임</div>
+                        <ul>
+                            <li><strong>SRF 연료화시설 시운전 지원:</strong> 설비 단독 시험 및 연동 시험 지원, 컨베이어·SILO 초기 가동 확인</li>
+                            <li><strong>설비 점검 및 이상 대응:</strong> 시운전 중 이상 사항 조기 발견·공유, 반복 트러블 구간 사전 확인으로 일정 지연 최소화</li>
+                            <li><strong>시운전 데이터 기록 관리:</strong> 운전 조건·설비 이상·조치 내역 기록 정리, 정상 가동 전환 기여</li>
+                            <li><strong>시운전 투입 인력 근태 관리:</strong> 시운전 투입 인력 출퇴근 관리, 근무 시간 집계 및 보고</li>
+                            <li><strong>소모품·비품 구매 및 창고 관리:</strong> 시운전 필요 소모품·비품 구매, 창고 재고 관리, 운영 비용 절감</li>
+                            <li><strong>지게차·집게차 운전:</strong> 시운전 지원 장비 운전, 자재 이동 및 현장 정리</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <h3>⑥ 유한킴벌리 (제조 현장 - 제지생산)</h3>
+                        <div class="period">2014.09 ~ 2015.09 (1년 1개월) | 제지생산3워크그룹 사원</div>
+                        <ul>
+                            <li><strong>중앙 제어실(CCR) 시스템 운용:</strong> HMI/DCS 시스템 모니터링, 컨베이어·원료 투입 설비 원격 제어</li>
+                            <li><strong>생산계획 기준 원료 투입 관리:</strong> 생산계획 확인 후 원료 투입량 조절, 라인 흐름 유지 및 공급 안정화</li>
+                            <li><strong>컨베이어 벨트 운전 및 관리:</strong> 컨베이어 벨트 운전 상태 모니터링, 이상 발생 시 즉시 보고·조치</li>
+                            <li><strong>저장 탱크 수율 관리:</strong> 탱크 잔량·수율 확인으로 과다/부족 투입 예방, 재고 운영 정확도 향상</li>
+                            <li><strong>P.S 스크린 정비 및 점검:</strong> P.S 스크린 정비, 소모품 교체로 불량·이물 리스크 감소, 가동률 안정화</li>
+                            <li><strong>SILO 공정 모니터링:</strong> SILO 원료 투입 상태 확인, 공정 안정성 유지</li>
+                            <li><strong>지게차 운전 (3톤급):</strong> 원료 운반·적재, 컨베이어 벨트 구간 원료 공급 지원</li>
+                            <li><strong>생산 라인 가동률 안정화:</strong> 설비 이상 최소화, 원료 공급 안정화로 생산 중단 예방</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="page-number">6</div>
+        </div>
+        
+        <!-- 슬라이드 7: 업무 강점 및 협업 성과 -->
+        <div class="slide content">
+            <div class="slide-header">
+                <h2>업무 강점 및 협업 성과</h2>
+            </div>
+            <div class="slide-content">
+                <div class="project-card">
+                    <div class="project-section">
+                        <h4>💪 물류 현장 운영 강점</h4>
+                        <ul>
+                            <li><strong>정확성과 신뢰성:</strong> 입출고 데이터 오류 최소화, 재고 정확도 향상으로 생산 라인 안정적 지원</li>
+                            <li><strong>현장 문제 해결력:</strong> 도크 혼잡·라벨 오발행·입고 지연 등 반복 이슈를 프로세스 개선으로 해결, 컨테이너 대기시간 단축</li>
+                            <li><strong>ERP 시스템 활용 능력:</strong> SAP·Oracle ERP 기반 입출고·재고·구매 데이터 관리, 월 150~200건 처리 경험</li>
+                            <li><strong>지게차 운전 및 중장비 자격:</strong> 지게차운전기능사 외 5종 자격 보유, 월 200~300톤 규모 원료 운반·적재 경험</li>
+                            <li><strong>안전 관리 의식:</strong> 상하차·창고 운영 시 안전수칙 준수, 현장 5S 활동 실천, 무사고 근무 경력</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h4>🤝 총무·행정 업무 강점</h4>
+                        <ul>
+                            <li><strong>예산 관리 및 비용 절감:</strong> 차량·통근버스·시설 운영 예산 집행, 예산 삭감 시 대체 방안 수립 및 기안 작성</li>
+                            <li><strong>계약·입찰 업무 경험:</strong> 차량 입찰·렌탈 계약, 통근버스 용역 계약, 협력업체 관리 및 이행 점검</li>
+                            <li><strong>문서 작성 및 보고 능력:</strong> 공문·기안서·보고서 작성, 대외 협력 문서 관리, Excel 데이터 집계 및 분석</li>
+                            <li><strong>지자체·정부기관 대외 협력:</strong> 정부기관·지자체·유관기관 협업 공문 작성·회신, 기관 간 협업 일정 조율 및 행정 실무 지원</li>
+                            <li><strong>민원 대응 및 서비스 개선:</strong> 민원 환경 분석 후 PC 설치·동선 개선 제안·실행, 대기시간 단축, 만족도 향상</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h4>🌟 협업 및 커뮤니케이션 성과</h4>
+                        <ul>
+                            <li><strong>부서 간 소통 및 협업 조율:</strong> 생산·구매·회계·안전 부서와 협업하여 자재 공급 일정 조율, 예산 집행 협의, 운영 개선 추진</li>
+                            <li><strong>지자체·정부기관 대외 협력:</strong> 한국교통안전공단·극지연구소 근무 시 정부기관·지자체·유관기관 협업 공문 작성·회신, 기관 간 협업 일정 조율 및 행정 실무 지원</li>
+                            <li><strong>외부 업체 관리:</strong> 통근버스·차량 정비·시설 유지보수 용역업체 관리, 계약 조건 이행 점검 및 조정</li>
+                            <li><strong>외국계 기업 영어 소통:</strong> 엠케이에스코리아에서 영어 이메일 작성, 해외 업체와 납기·견적 협의, 통관 서류 검토</li>
+                            <li><strong>문서 작성 및 보고:</strong> 공문·기안서·예산 협의 자료·운영 개선 보고서 작성, Excel 데이터 집계·분석 및 보고</li>
+                            <li><strong>VOC 분석 및 개선 실행:</strong> 민원·직원 의견 수렴 후 데이터 분석, 실질적 개선안 도출·보고·실행으로 만족도 향상</li>
+                            <li><strong>예산 삭감 상황 대응:</strong> 통근버스 예산 삭감 시 운영 현황 분석 → 대체 방안 수립 → 기안 작성·보고로 서비스 유지</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="page-number">7</div>
+        </div>
+        
+        <!-- 슬라이드 8: 수상 및 사회활동 -->
+        <div class="slide content">
+            <div class="slide-header">
+                <h2>수상 및 사회활동</h2>
+            </div>
+            <div class="slide-content">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h3>수상 및 사회활동</h3>
+                        <div class="period">2025.06 | 국회의원 표창장 수상</div>
+                        <ul>
+                            <li><strong>수상 내역:</strong> 지역사회 발전 유공 포상 (국회의원 정일영)</li>
+                            <li><strong>활동 배경:</strong> 인천연수구축구협회 사무차장으로서 지역 스포츠 활성화 및 공동체 발전 기여</li>
+                            <li><strong>현재 활동:</strong> 인천연수구축구협회 사무차장 역임 (2025.02 ~ 현재), 협회 투명 운영 및 지역 화합 기여</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="page-number">7</div>
+        </div>
+        
+        <!-- 슬라이드 9: 핵심 역량 및 스킬 -->
+        <div class="slide content">
+            <div class="slide-header">
+                <h2>핵심 역량 및 스킬</h2>
+            </div>
+            <div class="slide-content">
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>📦 물류·입출고 운영</h3>
+                        <ul>
+                            <li>SAP·Oracle ERP 입출고 관리</li>
+                            <li>원료·자재 입고 검수 및 재고조사</li>
+                            <li>창고 적치 기준 체계화 (구역/품목/상태별)</li>
+                            <li>컨테이너·윙바디 상하차 일정 조율</li>
+                            <li>도크 관리 및 화물 배차</li>
+                            <li>FIFO 재고 관리 및 추적성 확보</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>🚛 구매·통관 실무</h3>
+                        <ul>
+                            <li>Oracle ERP PR/PO 생성·발행 (월 150~200건)</li>
+                            <li>MRO 긴급구매 대응</li>
+                            <li>오픈 PO 납기 모니터링</li>
+                            <li>수입 통관 협업 (Invoice/PL/BL 검토)</li>
+                            <li>관세사·운송사 협업</li>
+                            <li>견적 비교 분석 및 구매 의사결정 지원</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>🔧 설비·공정 관리</h3>
+                        <ul>
+                            <li>SILO 공정 모니터링 및 수율 관리</li>
+                            <li>중앙 제어실(CCR) HMI/DCS 시스템 운용</li>
+                            <li>컨베이어·원료 투입 설비 운전</li>
+                            <li>설비 시운전 및 점검 (단독·연동 시험)</li>
+                            <li>P.S 스크린 정비 및 소모품 교체</li>
+                            <li>생산 라인 원료 공급 안정화</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>📊 데이터·정산 관리</h3>
+                        <ul>
+                            <li>SAP 데이터 입력 및 정합성 점검</li>
+                            <li>라벨 발행 및 오발행 예방</li>
+                            <li>월 마감 및 구매 정산 처리</li>
+                            <li>세금계산서·인보이스 검수</li>
+                            <li>재고 정확도 관리 (실물·시스템 일치)</li>
+                            <li>관세·운임 정산 및 비용 관리</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>💻 시스템·프로그램</h3>
+                        <ul>
+                            <li>SAP (자재·입출고·재고 관리)</li>
+                            <li>Oracle ERP (구매·정산)</li>
+                            <li>코오롱 KPL 입고 프로그램</li>
+                            <li>HMI/DCS 중앙 제어 시스템</li>
+                            <li>MS Office (Excel·Word·PPT 상)</li>
+                            <li>한글 (문서 작성)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>📊 Excel 함수 활용 (물류 실무)</h3>
+                        <ul>
+                            <li><strong>VLOOKUP/XLOOKUP:</strong> 품목코드 기준 재고 조회</li>
+                            <li><strong>SUMIF/SUMIFS:</strong> 조건별 입출고 수량 집계</li>
+                            <li><strong>COUNTIF/COUNTIFS:</strong> 재고 상태별 건수 집계</li>
+                            <li><strong>IF/IFS:</strong> 안전재고 알림 조건 설정</li>
+                            <li><strong>INDEX/MATCH:</strong> 다중 조건 데이터 추출</li>
+                            <li><strong>피벗테이블:</strong> 월별/품목별 입출고 분석</li>
+                            <li><strong>조건부 서식:</strong> 재고 부족 시각화</li>
+                            <li><strong>데이터 유효성 검사:</strong> 입력 오류 방지</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>📜 보유 자격증 (물류 직무 7종)</h3>
+                        <ul>
+                            <li><strong>★지게차운전기능사 (2016.04)</strong></li>
+                            <li><strong>굴삭기운전기능사 (2017.04)</strong></li>
+                            <li><strong>로더운전기능사 (2016.09)</strong></li>
+                            <li><strong>천장크레인운전기능사 (2016.12)</strong></li>
+                            <li><strong>자동차정비산업기사 (2021.11)</strong></li>
+                            <li>컴퓨터활용능력 2급 (2016.03)</li>
+                            <li>워드프로세서 (2017.03)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>📝 문서·대외협력 능력</h3>
+                        <ul>
+                            <li>공문·기안서·보고서 작성</li>
+                            <li>지자체·정부기관 협업 공문 작성·회신</li>
+                            <li>유관기관 협업 일정 조율</li>
+                            <li>부서 간 커뮤니케이션 조율</li>
+                            <li>외부 업체·용역업체 관리</li>
+                            <li>대외 협력 행정 지원</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="page-number">9</div>
+        </div>
+        
+        <!-- 슬라이드 10: 지원 동기 및 포부 -->
+        <div class="slide content">
+            <div class="slide-header">
+                <h2>지원 동기 및 포부</h2>
+            </div>
+            <div class="slide-content">
+                <div class="project-card">
+                    <div class="project-section">
+                        <h4>🎯 써모피셔 사이언티픽 코리아 Sr Material Handler 지원 동기</h4>
+                        <p style="margin-bottom: 20px; line-height: 1.9;">
+                            저는 제조 현장과 외국계 기업에서 구매·자재·물류 실무를 수행하며 <strong>SAP·Oracle ERP 기반 입출고·재고 관리</strong>, 
+                            <strong>컨테이너 상하차 및 도크 운영</strong>, <strong>구매·통관 프로세스</strong>를 경험했습니다. 
+                            특히 <strong>세인플라스틱</strong>에서는 월 200~300톤 규모의 원료 입출고를 관리하며 <strong>재고 정확도</strong>와 <strong>프로세스 안정성</strong>을 확보했고, 
+                            <strong>엠케이에스코리아</strong>에서는 Oracle ERP로 월 150~200건의 구매·통관·정산 업무를 처리하며 <strong>납기 준수</strong>와 <strong>정산 정확도</strong>를 개선했습니다.
+                        </p>
+                        <p style="margin-bottom: 20px; line-height: 1.9;">
+                            이러한 경험을 통해 <strong>물류 데이터 정확성</strong>, <strong>프로세스 체계화</strong>, <strong>협업 조율 능력</strong>을 체득했으며, 
+                            <strong>지게차운전기능사</strong> 등 관련 자격증과 3년간의 현장 운전 경력을 보유하고 있습니다. 
+                            또한 외국계 기업에서 영어 이메일 작성과 해외 업체 소통 경험을 쌓았으며, 
+                            <strong>한국교통안전공단</strong>과 <strong>극지연구소</strong> 근무를 통해 
+                            <strong>예산 관리</strong>, <strong>운영 개선</strong>, <strong>협업 조율</strong>, <strong>문서 작성</strong> 역량을 함께 쌓아왔습니다.
+                        </p>
+                        <p style="line-height: 1.9;">
+                            써모피셔 사이언티픽 코리아의 <strong>Sr Material Handler</strong>는 임상시험용 의약품이라는 특수 물류 환경에서 
+                            <strong>GMP/GDP 기준 준수</strong>, <strong>콜드체인 관리</strong>, <strong>정확한 입출고 처리</strong>가 핵심인 직무입니다. 
+                            저는 제조 현장에서 쌓은 <strong>ERP 운영 경험</strong>, <strong>재고 정확도 관리</strong>, <strong>현장 문제 해결 능력</strong>과            총무·행정 경험에서 얻은 <strong>프로세스 개선</strong>, <strong>협업 조율</strong>, <strong>문서화 역량</strong>을 바탕으로 
+            써모피셔 사이언티픽 코리아의 <strong>글로벌 물류 표준</strong>에 부합하는 전문성을 발휘하고, 
+            <strong>환자 안전</strong>과 <strong>임상시험 무결성</strong>을 최우선으로 하는 물류 운영에 기여하고 싶습니다.
+                        </p>
+                    </div>
+                    
+                    <div class="project-section" style="margin-top: 40px;">
+                        <h4>🚀 입사 후 실천 계획</h4>
+                        <ul>
+                            <li><strong>신속한 업무 습득:</strong> GMP/GDP 규정 숙지, 임상시험용 의약품 특성 이해, 콜드체인 관리 절차 학습을 통해 빠른 현장 적응</li>
+                            <li><strong>입출고 정확도 최우선:</strong> Pick Order 처리 시 이중 검수 원칙 준수, Just-In-Time Labeling 정확도 확보, 온도 조건 철저 관리</li>
+                            <li><strong>재고 관리 체계화:</strong> Cycle Count 정기 실시, FIFO 원칙 엄수, ERP-실물 재고 일치율 향상으로 재고 신뢰성 강화</li>
+                            <li><strong>반품·폐기 프로세스 준수:</strong> GDP 기준 문서화 100% 준수, 추적성 확보, 반품 원인 분석 및 재발 방지 기여</li>
+                            <li><strong>현장 안전 및 5S 실천:</strong> 안전수칙 철저 준수, 창고 정리정돈·청결 유지, 5S 활동 적극 참여</li>
+                            <li><strong>협업 및 커뮤니케이션:</strong> 팀원·관련 부서와 원활한 소통, 이슈 발생 시 신속 보고·조치, 협업 문화 기여</li>
+                            <li><strong>지속적인 개선 제안:</strong> 업무 프로세스 개선 아이디어 도출, 데이터 기반 효율성 향상 방안 제시</li>
+                        </ul>
+                        <p style="margin-top: 30px; font-size: 1.15em; font-weight: 600; color: #1e3c72; line-height: 1.8;">
+                            써모피셔 사이언티픽 코리아의 <strong>Sr Material Handler</strong>로서 환자 안전과 글로벌 신뢰를 지키는 물류 전문가가 되겠습니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="page-number">10</div>
+        </div>
+        
+        <!-- 슬라이드 11: 연락처 -->
+        <div class="slide contact-slide">
+            <div class="contact-box">
+                <h2>감사합니다</h2>
+                <div class="contact-info">
+                    <p style="font-size: 1.6em; margin-bottom: 50px; line-height: 1.6;">
+                        써모피셔 사이언티픽 코리아와 함께<br>성장하고 싶습니다.
+                    </p>
+                    <div style="font-size: 1.2em; line-height: 2; margin-top: 40px;">
+                        <p>📧 syk4000@naver.com</p>
+                        <p>📱 010-7189-8703</p>
+                        <p>👤 용기호 (YONG KIHO)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="page-number">11</div>
+        </div>
+        
+    </div>
+
+
+</body></html>
